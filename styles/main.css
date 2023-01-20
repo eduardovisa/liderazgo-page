@@ -53,6 +53,14 @@
       display: none;
     }
   }
+  .academias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1% 10%;
+    font-family: 'Raleway', sans-serif;
+  }
   .academias-item {
     border-right: 1px solid white;
     padding: 2% 5% 1%;
@@ -77,6 +85,33 @@
   .academias-arrow {
     width: 30px;
     margin-top: 10%;
+  }
+  .escuelas-open h1 {
+    letter-spacing: normal;
+  }
+  .escuelas-open .cerrar {
+    color: white;
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .escuelas-open .academias {
+    padding: 2.5% 0 0;
+  }
+  .escuelas-open .academias-item {
+    margin-bottom: 2.5%;
+  }
+  .escuelas-open .academias-text {
+    font-weight: bold;
+    color: #033154;
+    text-transform: none;
+  }
+  .escuelas-open .academias-btn {
+    color: #033154;
   }
   .main-section h1 {
     color: white;
