@@ -43,13 +43,13 @@
 
   }
   @media screen and (max-width: 900px) {
-    .main-section .navbar {
+    .craft .navbar {
       padding: 5% 10%;
     }
-    .main-section .navbar img {
+    .craft .navbar img {
       height: 50px;
     }
-    .main-section .navbar .nav-right {
+    .craft .navbar .nav-right {
       display: none;
     }
   }
@@ -113,29 +113,29 @@
   .escuelas-open .academias-btn {
     color: #033154;
   }
-  .main-section h1 {
+  .craft h1 {
     color: white;
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: normal;
     font-size: 36px;
   }
-  .main-section h1 img {
+  .craft h1 img {
     width: 50px;
   }
-  .main-section .main-H1 {
+  .craft .main-H1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
   }
-  .main-section p {
+  .craft p {
     font-size: 24px;
     margin-top: 1em;
     color: #E84F3C;
     font-weight: 600;
     letter-spacing: 1px;
   }
-  .main-section p img {
+  .craft p img {
     vertical-align: middle;
   }
   .pc {
@@ -164,14 +164,14 @@
       background-position: center 70%;
       background-size: cover;
     }
-    .main-section .main-section-title {
+    .craft .main-section-title {
       padding: 0 5%;
     }
-    .main-section .main-section-title h1 {
+    .craft .main-section-title h1 {
       letter-spacing: normal;
       font-size: 26px;
     }
-    .main-section .main-section-title p {
+    .craft .main-section-title p {
       font-size: 1rem;
     }
     .tecnicas-container {
@@ -189,7 +189,7 @@
     background-size: cover;
     background-position: bottom;
   }
-  .main-section {
+  .craft {
     min-height: 100vh;
     background-color: #033154;
     background-size: contain;
@@ -200,46 +200,46 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
   }
-  .main-section .navbar {
+  .craft .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
   }
-  .main-section .navbar .menu {
+  .craft .navbar .menu {
     background: #FF7162;
     border-radius: 30px;
     font-size: 14px;
   }
-  .main-section .navbar img {
+  .craft .navbar img {
     width: auto;
     height: 50px;
   }
-  .main-section .navbar .nav-right {
+  .craft .navbar .nav-right {
     display: flex;
     align-items: center;
   }
-  .main-section .navbar .nav-right .menu {
+  .craft .navbar .nav-right .menu {
     display: flex;
     align-items: center;
     box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.5);
     font-weight: 700;
   }
-  .main-section .navbar .nav-right .menu div {
+  .craft .navbar .nav-right .menu div {
     padding: 20px 10px;
   }
-  .main-section .navbar .nav-right .menu div:nth-child(1) {
+  .craft .navbar .nav-right .menu div:nth-child(1) {
     padding-left: 20px;
   }
-  .main-section .navbar .nav-right .menu div:nth-child(3) {
+  .craft .navbar .nav-right .menu div:nth-child(3) {
     padding-right: 20px;
   }
-  .main-section .navbar .nav-right .menu .dropdown {
+  .craft .navbar .nav-right .menu .dropdown {
     position: relative;
     cursor: pointer;
     text-align: start;
   }
-  .main-section .navbar .nav-right .menu .dropdown-content {
+  .craft .navbar .nav-right .menu .dropdown-content {
     display: none;
     position: absolute;
     padding: 35px 0 0;
@@ -248,21 +248,21 @@
     transform: translateX(-20px);
     z-index: 10;
   }
-  .main-section .navbar .nav-right .menu .dropdown-content .dropdown-item {
+  .craft .navbar .nav-right .menu .dropdown-content .dropdown-item {
     background-color: #EC5B42;
     padding: 0 20px;
   }
-  .main-section .navbar .nav-right .menu .dropdown-content .dropdown-item .last {
+  .craft .navbar .nav-right .menu .dropdown-content .dropdown-item .last {
     border-bottom: none;
   }
-  .main-section .navbar .nav-right .menu .dropdown-content a {
+  .craft .navbar .nav-right .menu .dropdown-content a {
     text-decoration: none;
     display: block;
     border-bottom: 1px solid white;
     padding: 20px 0;
     color: white;
   }
-  .main-section .navbar .nav-right .menu .dropdown-content::before {
+  .craft .navbar .nav-right .menu .dropdown-content::before {
     content: "";
     display: block;
     width: 0px;
@@ -274,16 +274,16 @@
     top: 20px;
     left: 44%;
   }
-  .main-section .navbar .nav-right .menu .dropdown:hover .dropdown-content {
+  .craft .navbar .nav-right .menu .dropdown:hover .dropdown-content {
     display: block;
   }
-  .main-section .navbar .nav-right .menu a {
+  .craft .navbar .nav-right .menu a {
     color: inherit;
   }
-  .main-section .navbar .nav-right .nav-icon {
+  .craft .navbar .nav-right .nav-icon {
     margin-left: 15px;
   }
-  .main-section .navbar .nav-right .nav-icon img {
+  .craft .navbar .nav-right .nav-icon img {
     height: 30px;
   }
 .button-color-blue {
