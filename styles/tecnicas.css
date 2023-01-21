@@ -146,6 +146,7 @@ a {
   background-position: top;
   background-repeat: no-repeat;
   color: white;
+  padding-top: 30px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
@@ -263,7 +264,7 @@ a {
   align-items: flex-end;
 }
 .craft p {
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 1em;
   color: #DFB064;
   font-weight: 600;
@@ -311,8 +312,8 @@ a {
 }
 .academias-item {
   border-right: 1px solid white;
-  padding: 2% 5% 1%;
-  width: 25%;
+  padding: 1% 5% 1%;
+  width: 20vw;
 }
 .academias-item:nth-child(4n-7) {
   border-left: 1px solid white;
