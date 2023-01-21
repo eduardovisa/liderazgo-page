@@ -3,7 +3,7 @@
 
 const tecnicasContainer = document.getElementById('tecnicas-container'),
 escuelasContainer = document.getElementById('escuelas-container'),
-mainSection = document.getElementsByClassName('main-section'),
+mainSection = document.getElementsByClassName('craft'),
 instrucciones = document.getElementById('instrucciones'),
 academiaTitle = document.getElementById('Academia'),
 escuelasItems = document.getElementById('escuelas-items'),

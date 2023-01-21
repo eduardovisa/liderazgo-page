@@ -381,7 +381,7 @@ a {
   padding: 3% 10%;
 }
 .imgpie{
-  background-image: url("./assets/img/PNG/graphic_línea amarilla.png");
+  background-image: url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/img/graphic_línea amarilla.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
