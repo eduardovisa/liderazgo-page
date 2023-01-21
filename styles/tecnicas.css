@@ -301,7 +301,12 @@ a {
     background-image: none;
   }
 }
-
+.card-body{
+  padding: 0 !important;
+}
+.card-body li a {
+  font-size: 12px;
+}
 .academias {
   display: flex;
   align-items: center;
