@@ -99,8 +99,11 @@
   margin-right: 10px;
 }
 .dropdown-menu {
-  max-height: 230px;
+  overflow: hidden;
   overflow-y: auto;
+  max-height: calc(100vh - 150px);
+  /* max-height: 230px;
+  overflow-y: auto; */
 }
 .bottom-nav {
   display: flex;
