@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
 
 #ctl00_pnlBR {
   display: none;
@@ -107,7 +98,10 @@ a {
   height: auto;
   margin-right: 10px;
 }
-
+.dropdown-menu {
+  max-height: 280px;
+  overflow-y: auto;
+}
 .bottom-nav {
   display: flex;
   align-items: center;

@@ -6,9 +6,10 @@
     href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/css/jquery.pagepiling.css">
 <link rel="stylesheet"
     href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/css/style.css?v=3.1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 <link href="https://www.dafontfree.net/embed/Y29yYmVsLXJlZ3VsYXImZGF0YS8xMy9jLzY0Njg2L0NPUkJFTC5UVEY" rel="stylesheet"
     type="text/css">
 <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
@@ -261,7 +262,7 @@
         <div class="">
 
             <div class="d-flex justify-content-center"
-                style="background-image: url(https://eduardovisa.github.io/liderazgo-page//img/lineas_1.png); background-repeat: no-repeat; background-size: contain; background-position: center; margin-top: 50px; height: 38vh;">
+                style="background-image: url(https://eduardovisa.github.io/liderazgo-page//img/lineas_1.png); background-repeat: no-repeat; background-size: contain; background-position: center; height: 38vh;">
                 <div class="bd-highlight"></div>
                 <div class="bd-highlight">
                     <div class="text">
@@ -282,7 +283,7 @@
             </div>
 
 
-            <div class="d-flex justify-content-lg-between flex-lg-row flex-column">
+            <div class="d-flex justify-content-lg-around flex-lg-row flex-column">
                 <div class="d-flex col-6 justify-content-start">
 
                     <div class="d-flex bd-highlight flex-column" style="white-space: nowrap;">
@@ -547,37 +548,45 @@
         </div>
         <div class="tecnicas-container" id="tecnicas-container">
             <div class="academias pc">
-                <div class="academias-item">
+                <div class="academias-item ">
                     <div class="academias-text">
                         &nbsp;<br>Academia<br><span class="bold">Grupo Bimbo</span>
                     </div>
-
-                    <div class="academias-btn" id="dropdownMenuReference" data-bs-toggle="dropdown"
-                        aria-expanded="false" data-bs-reference="parent">
-
-                        <br>Ver Escuelas<br>
-                        <i class="bi bi-caret-down-fill" style="font-size: 1.5rem; color: rgb(247, 230, 0);"></i>
-                    </div>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference"
-                        style="background: rgb(216, 215, 238); opacity: 1.0;  z-index: 1;">
-                        <div class="card text-center" style="width: 18rem;">
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn-close" aria-label="Close"></button>
-                            </div>
-                            <div class="card-body">
-                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela Asuntos
-                                        Corporativos</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Escuela Comunicación</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Escuela Sustentabilidad</a></li>
-                            </div>
+                    <div class="btn-group dropdown-center">
+                        <div class="academias-btn" id="dropdownMenuReference" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-bs-reference="parent">
+                            <br>Ver Escuelas<br>
+                            <i class="bi bi-caret-down-fill" style="font-size: 1.5rem; color: rgb(247, 230, 0);"></i>
                         </div>
-                    </ul>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference"
+                            style="background: rgb(216, 215, 238); opacity: 1.0;  z-index: 1;">
+                            <div class="card text-center" style="width: 18rem;">
+                                <div class="d-flex justify-content-end">
+                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                </div>
+                                <div class="card-body">
+                                    <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);"> Asuntos
+                                            Cultura y Liderazgo</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Comunicación</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Sustentabilidad</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Asuntos Corporativos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Relaciones Institucionales</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
                 </div>
                 <div class="academias-item">
                     <div class="academias-text">
@@ -596,25 +605,24 @@
                                 <button type="button" class="btn-close" aria-label="Close"></button>
                             </div>
                             <div class="card-body">
-                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela Atracción
-                                        de
-                                        Talento</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Talento y
+                                        Desarrollo</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Compensación</a></li>
+                                <li><a class="dropdown-item" href="#">Atraccion de Talento</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Relaciones Laborales</a></li>
+                                <li><a class="dropdown-item" href="#">Relaciones Laborales</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Seguridad y Bienestar</a></li>
+                                <li><a class="dropdown-item" href="#">Seguridad y Bienestar</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Talento y Desarrollo</a></li>
+                                <li><a class="dropdown-item" href="#">Compensación</a></li>
                             </div>
                         </div>
                     </ul>
@@ -660,6 +668,26 @@
                                         <hr class="dropdown-divider">
                                     </li>
                                     <li><a class="dropdown-item" href="#">Gestión de activos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Vehículos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Gestion de Almacenes</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Despacho</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Ingeniería y Desarrollo</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Agroindustria</a></li>
                                 </div>
                             </div>
                         </ul>
@@ -682,20 +710,39 @@
                                 <button type="button" class="btn-close" aria-label="Close"></button>
                             </div>
                             <div class="card-body">
-                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela Bienes
-                                        Raíces</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Finanzas</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Controlaría</a></li>
+                                <li><a class="dropdown-item" href="#">Controlaría</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Jurídico</a></li>
+                                <li><a class="dropdown-item" href="#">Jurídico</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Planeación Financiera</a></li>
+                                <li><a class="dropdown-item" href="#">Fusiones y adquisiciones</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tesorería</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Fiscal</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Servicios Globales</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Servicios Electrónicos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Bienes Raíces</a></li>
                             </div>
                         </div>
                     </ul>
@@ -708,7 +755,6 @@
                     </div>
                     <div class="academias-btn" id="dropdownMenuReference" data-bs-toggle="dropdown"
                         aria-expanded="false" data-bs-reference="parent">
-
                         <br>Ver Escuelas<br>
                         <i class="bi bi-caret-down-fill" style="font-size: 1.5rem; color: rgb(247, 230, 0);"></i>
                     </div>
@@ -719,12 +765,19 @@
                                 <button type="button" class="btn-close" aria-label="Close"></button>
                             </div>
                             <div class="card-body">
-                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela Gestión
-                                        Corporativa</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Ágil</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Tecnología de Negocios</a></li>
+                                <li><a class="dropdown-item" href="#">Cambio</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Innovación</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Tecnologías del Negocio</a></li>
                             </div>
                         </div>
                     </ul>
@@ -746,12 +799,12 @@
                                 <button type="button" class="btn-close" aria-label="Close"></button>
                             </div>
                             <div class="card-body">
-                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela Control
-                                        Interno</a></li>
+                                <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Auditoría
+                                        Interna</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Escuela Auditoría Interna</a></li>
+                                <li><a class="dropdown-item" href="#">Control Interno</a></li>
                             </div>
                         </div>
                     </ul>
@@ -774,12 +827,12 @@
                                     <button type="button" class="btn-close" aria-label="Close"></button>
                                 </div>
                                 <div class="card-body">
-                                    <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Escuela
-                                            Mercadoctenia</a></li>
+                                    <li><a class="dropdown-item" href="#" style="color: rgb(207, 159, 0);">Ventas</a>
+                                    </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Escuela Ventas</a></li>
+                                    <li><a class="dropdown-item" href="#">Mercadoctenia</a></li>
                                 </div>
                             </div>
                         </ul>
@@ -1107,8 +1160,15 @@
 <script src="/Core/scripts/jquery/jquery-3.6.0.min.js?hsh=519764435" type="text/javascript"></script>
 <script type="text/javascript"
     src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/jquery.pagepiling.js"></script>
-<script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/app.js"></script>
-<script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+<script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/app.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script> -->
+<!-- <script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/bootstrap.min.js"></script> -->
