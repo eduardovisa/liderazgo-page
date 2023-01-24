@@ -100,8 +100,8 @@
 }
 .dropdown-menu {
   overflow: hidden;
-  overflow-y: auto;
-  max-height: 200px;
+  overflow-y: visible;
+  height: 200px;
   
 }
 .bottom-nav {
