@@ -71,12 +71,15 @@
 }
 
 .btn {
-  font-size: calc(2px + 0.5vw + 0.5vh);
+  font-size: calc(1px + 0.5vw + 0.4vh);
   color: white;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  padding: 1.5vh;
   width: 100%;
+}
+.p-2{
+  padding: .2rem !important;
 }
 
 .last-text-red {
