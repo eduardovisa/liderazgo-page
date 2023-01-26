@@ -1,11 +1,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link data-include-file="lxp/carousellepV3.css" href="https://scfiles.csod.com/labs/widgets/lxp/carousellepV3.css"
     rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/css/carousel.css">
-<link rel="stylesheet"
-    href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/css/jquery.pagepiling.css">
-<link rel="stylesheet"
-    href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/css/style.css?v=3.1">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/carousel.css">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/jquery.pagepiling.css">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/style.css?v=3.1">
+<link rel="stylesheet" href="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/11546/styles/main.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link href="https://www.dafontfree.net/embed/Y29yYmVsLXJlZ3VsYXImZGF0YS8xMy9jLzY0Njg2L0NPUkJFTC5UVEY" rel="stylesheet"
@@ -15,6 +14,7 @@
     rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://eduardovisa.github.io/liderazgo-page/styles/main.css">
 <!-- <link rel="stylesheet" href="./styles/main.css"> -->
+
 <style>
     #ctl00_pnlBR {
         display: none;
@@ -22,99 +22,86 @@
 </style>
 <script data-include-file="lxp/carousellepV2.js"
     src="https://scfiles.csod.com/labs/widgets/lxp/carousellepV2.js"></script>
+
 <div class="menu">
     <div class="dropdown">
-        <span>Contenido</span>
+        <span>Conteúdo</span>
         <div class="dropdown-content">
-            <div class="dropdown-item"><a href="#Main">Buscador</a></div>
+            <div class="dropdown-item"><a href="#Main">Motor de busca de conteúdo</a></div>
             <div class="dropdown-item"><a href="#Banners">Destacado</a></div>
             <!--<div class="dropdown-item"><a href="#Brain">Brain</a></div>-->
-            <div class="dropdown-item"><a href="#Cursos">Mis cursos</a></div>
-            <div class="dropdown-item"><a href="#Competencias">Competencias</a></div>
-            <div class="dropdown-item"><a href="#Portales">Portales Externos</a></div>
+            <div class="dropdown-item"><a href="#Cursos">Meus cursos</a></div>
+            <div class="dropdown-item"><a href="#Competencias">Competências</a></div>
+            <div class="dropdown-item"><a href="#Portales">Portais externos</a></div>
             <div class="dropdown-item"><a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575"
-                    class="last">Contáctanos</a></div>
+                    class="last">Contate-Nos</a></div>
         </div>
     </div>
-    <div><a href="/ui/lms-learner-home/home?tab_page_id=-200300006">Inicio</a></div>
-    <div><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Expediente</a></div>
+    <div><a href="/ui/lms-learner-home/home?tab_page_id=-200300006">Início</a></div>
+    <div><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Exibir sua Transcrição</a></div>
 </div>
 <div class="sideNav" id="SideNav">
     <div class="sideNav-close" onclick="closeNav()">❯</div>
     <div class="sideNav-menu">
-        <div class="sideNav-item">Contenido ▼</div>
-        <div class="sideNav-item left-ident"><a href="#Main">Buscador</a></div>
+        <div class="sideNav-item">Conteúdo ▼</div>
+        <div class="sideNav-item left-ident"><a href="#Main">Motor de busca de conteúdo</a></div>
         <div class="sideNav-item left-ident"><a href="#Banners">Destacado</a></div>
         <!--<div class="sideNav-item left-ident"><a href="#Brain">Brain</a></div>-->
-        <div class="sideNav-item left-ident"><a href="#Cursos">Mis cursos</a></div>
-        <div class="sideNav-item left-ident"><a href="#Competencias">Competencias</a></div>
-        <div class="sideNav-item left-ident"><a href="#Portales">Portales externos</a></div>
-        <div class="sideNav-item"><a
-                href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Expediente</a></div>
+        <div class="sideNav-item left-ident"><a href="#Cursos">Meus cursos</a></div>
+        <div class="sideNav-item left-ident"><a href="#Competencias">Competências</a></div>
+        <div class="sideNav-item left-ident"><a href="#Portales">Portais externos</a></div>
+        <div class="sideNav-item"><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">Exibir sua
+                Transcrição</a></div>
         <div class="sideNav-item"><a href="/ui/lms-learner-home/home?tab_page_id=-200300006"><img
-                    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg"
-                    alt="">Inicio</a></div>
+                    src="/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg" alt="">Início</a></div>
         <div class="sideNav-item"><a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575"><img
-                    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/contacto-icono.svg"
-                    alt="">Contáctanos</a>
+                    src="/content/grupobimbo/publications/8483/img/iconos/contacto-icono.svg" alt="">Contate-Nos</a>
         </div>
     </div>
 </div>
 <span class="hamburger" onclick="openNav()">☰</span>
 <div class="bottom-nav">
     <div>
-        <a href=""><img
-                src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/Icono Home.svg"
-                alt=""></a>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/Icono Home.svg" alt=""></a>
     </div>
     <div>
-        <a href=""><img
-                src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/Icono Search.svg"
-                alt=""></a>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/Icono Search.svg" alt=""></a>
     </div>
     <div>
-        <a href=""><img
-                src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg"
-                alt=""></a>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg" alt=""></a>
     </div>
 </div>
 <div id="pagepiling">
     <div class="main-section section" id="Main">
         <div class="navbar">
             <div class="nav-left">
-                <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg"
-                    alt="">
+                <img src="/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg" alt="">
             </div>
             <div class="nav-right">
                 <a class="nav-icon" style="visibility: hidden;"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GB Reloj.svg"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/iconos/GB Reloj.svg" alt=""></a>
                 <a class="nav-icon" style="visibility: hidden;"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GB Engrane.svg"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/iconos/GB Engrane.svg" alt=""></a>
             </div>
         </div>
         <div class="main-wellcome">
             <div class="profilepic">
-                <img id="Image2"
-                    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/cuadro.jpg" alt="">
+                <img id="Image2" src="/content/grupobimbo/publications/8483/img/cuadro.jpg" alt="">
             </div>
             <div class="wellcome-txt">
-                ¡Hola, {FIRSTNAME}!
+                Olá, {FIRSTNAME}!
             </div>
-            <h1>¿QUÉ TE GUSTARÍA APRENDER HOY?</h1>
+            <h1>O que você gostaria de aprender hoje?</h1>
             <div class="buscador">
                 <!-- Ir al Buscador de Aprendizaje -->
                 <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)" value=""
-                    placeholder="Escribelo aquí">
+                    placeholder="Procurar aprendizagem">
                 <img class="search-icon" onclick="search()"
-                    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/search-icon.svg"
-                    alt="">
+                    src="/content/grupobimbo/publications/8483/img/search-icon.svg" alt="">
             </div>
             <div class="swipe">
-                <div>Desliza hacia arriba</div>
-                <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg"
-                    alt="">
+                <div>Deslize para cima</div>
+                <img src="/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg" alt="">
             </div>
         </div>
 
@@ -131,7 +118,6 @@
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
             </ol>
 
             <!-- Wrapper for slides -->
@@ -141,19 +127,8 @@
                     <a href="/ui/lms-learner-playlist/PlaylistDetails?playlistId=118fbcd5-f9a3-4db9-bc64-4883af27e1b6">
                         <picture>
                             <source media="(min-width: 600px)"
-                                srcset="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/banners/Banner_ok_TMM_desk.png">
-                            <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/banners/Banner_ok_Centros_app_esp.png"
-                                alt="">
-                        </picture>
-                    </a>
-                </div>
-                <div class="carousel-item">
-                    <a
-                        href="https://grupobimbo.csod.com/ui/lms-learning-details/app/curriculum/bc9a5a7e-71ee-4b28-8c04-c65f8db497ae">
-                        <picture>
-                            <source media="(min-width: 600px)"
-                                srcset="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/banners/Banner_GBU_incendios_esp.jpg">
-                            <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/banners/Banner_GBU_incendios_ESP_m.jpg"
+                                srcset="/content/grupobimbo/publications/8483/img/banners/Banner_ok_TMM_desk.png">
+                            <img src="/content/grupobimbo/publications/8483/img/banners/Banner_ok_Centros_app_esp.png"
                                 alt="">
                         </picture>
                     </a>
@@ -174,23 +149,23 @@
     <!--<div class="video section" id="Brain">
         <div class="video-container">
             <picture>
-                <source media="(min-width: 600px)" srcset="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Brain_mes1.png">
-                <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/BannerBrain-02M.png" alt="">
+                <source media="(min-width: 600px)" srcset="/content/grupobimbo/publications/8483/img/Brain_mes1.png">
+                <img src="/content/grupobimbo/publications/8483/img/BannerBrain-02M.png" alt="">
             </picture>
             <div class="video-information">
                 <div class="video-logo">
-                    <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Brain/LogoBrain-02.png" alt="">
+                    <img src="/content/grupobimbo/publications/8483/img/Brain/LogoBrain-02.png" alt="">
                 </div>
                 <div class="video-description">
-                    <h2>Valentía</h2>
+                    <h2>Coragem</h2>
                     <div class="video-body">
                         <div>
-                            <p>Dar un paso al frente para abordar cuestiones difíciles, diciendo lo que es necesario decir.</p>
-                            <a href="https://brain-gbuniversity.com/" target="_blank">Ingresa a Brain</a>
+                            <p>Dar um passo à frente para resolver questões difíceis, dizendo o que precisa ser dito.</p>
+                            <a href="https://brain-gbuniversity.com/" target="_blank">Entrar no Brain</a>
                         </div>
                         <div class="qr">
-                            <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Brain/CodigoQR-03.png" alt="codigo qr">
-                            <div>Accede desde tu celular con este código.</div>
+                            <img src="/content/grupobimbo/publications/8483/img/Brain/CodigoQR-03.png" alt="codigo qr">
+                            <div>Acesse de seu telefone com este código</div>
                         </div>
                     </div>
                 </div>
@@ -198,8 +173,8 @@
         </div>
     </div>-->
     <div class="soon section pp-scrollable" id="Cursos">
-        <h1>Mis cursos</h1>
-        <h3>Accede a los cursos que te han sido asignados</h3>
+        <h1>Meus cursos</h1>
+        <h3>Acesse os cursos que foram atribuídos a você</h3>
         <link rel="stylesheet" href="https://use.typekit.net/mll2lme.css">
         <script data-include-file="perfect-scrollbar-master/dist/perfect-scrollbar.min.js"
             src="https://scfiles.csod.com/labs/widgets/perfect-scrollbar-master/dist/perfect-scrollbar.min.js"></script>
@@ -233,47 +208,64 @@
 
     </div>
     <div class="competencias section" id="Competencias">
-        <h1>NUESTROS MODELOS DE COMPETENCIAS</h1>
-        <h3>Aprende sobre los diferentes Modelos de Competencias</h3>
+        <h1>Nossos modelos de concorrência</h1>
+        <h3>Aprenda sobre os diferentes Modelos de Competências</h3>
         <div class="competencias-buttons">
             <a href="/catalog/CustomPage.aspx?id=221000379">
-                <div class="competencias-item liderazgo">Ir a<br><span
-                        style="font-weight: 900; font-size: 24px;">Competencias de<br><span
-                            style="text-transform: capitalize; font-size: 34px;">Liderazgo</span></span></div>
+                <div class="competencias-item liderazgo">Vá para<br><span
+                        style="font-weight: 900; font-size: 24px;">Competência de<br><span
+                            style="text-transform: capitalize; font-size: 34px;">liderança</span></span></div>
             </a>
             <a href="/catalog/CustomPage.aspx?id=221000380">
-                <div class="competencias-item humanas">Ir a<br><span
-                        style="font-weight: 900; font-size: 24px;">Competencias<br><span
+                <div class="competencias-item humanas">Vá para<br><span
+                        style="font-weight: 900; font-size: 24px;">Competência<br><span
                             style="text-transform: capitalize; font-size: 34px;">Humanas</span></span></div>
             </a>
             <a href="/catalog/CustomPage.aspx?id=221000381">
-                <div class="competencias-item tecnicas">Ir a<br><span
-                        style="font-weight: 900; font-size: 24px;">Competencias<br><span
+                <div class="competencias-item tecnicas">Vá para<br><span
+                        style="font-weight: 900; font-size: 24px;">Competência<br><span
                             style="text-transform: capitalize; font-size: 34px;">Técnicas</span></span></div>
             </a>
         </div>
     </div>
-
+    <!-- Inicio Fer -->
     <div class="liderazgo section" id="Liderazgo"
         style="background-image: url(https://eduardovisa.github.io/liderazgo-page/img//Fondo.jpg);">
         <div class="">
 
             <div class="d-flex justify-content-center"
-                style="background-image: url(https://eduardovisa.github.io/liderazgo-page//img/lineas_1.png); background-repeat: no-repeat; background-size: contain; background-position: center; margin-top: 50px; height: 40vh;">
+                style="background-image: url(https://eduardovisa.github.io/liderazgo-page//img/lineas_1.png); background-repeat: no-repeat; background-size: contain; background-position: center; margin-top: 50px; height: 43vh;">
                 <div class="bd-highlight"></div>
                 <div class="bd-highlight">
-                    <div class="text">
-                        <b>BIENVENIDO AL MATERIAL ADICIONAL</b><br>
-                        <b>DE LIDERAZGO A CONSCIENCIA</b>
-                        <br>
-                    </div>
-                    <div class="text">
-                        <img src="https://eduardovisa.github.io/liderazgo-page/img/LaC_esp.png" style="width: 20vh;">
-                    </div>
-                    <div class="text-description">
-                        <p>Haz clic en el módulo que desees consultar</p>
-                        <br>
-                    </div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="text">
+                                        <p><b>BEM-VINDO AO MATERIAL ADICIONAL</b></p>
+                                        <b>DE LIDERANÇA CONSCIENTE</b>
+                                        <br>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="text">
+                                        <img src="https://eduardovisa.github.io/liderazgo-page/img/LaC_port.jpg"
+                                            style="width:20vh;">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                </td>
+                                <td>
+                                    <div class="text-description">
+                                        <p>Clique no módulo que deseja consultar</p>
+                                        <br>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="bd-highlight"></div>
             </div>
@@ -282,7 +274,7 @@
             <div class="d-flex justify-content-lg-between flex-lg-row flex-column">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex bd-highlight flex-column">
-                        <div class="d-flex bd-highlight flex-column">
+                        <div class="d-flex flex-fill bd-highlight flex-column">
                             <div class="d-flex bd-highlight flex-row">
                                 <div class="p-3 col-4 align-items-stretch moduloFondo"
                                     style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
@@ -301,8 +293,8 @@
                                     <div class="card button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
-                                            <button type="button" class="btn">1. INTRODUCCIÓ<span
-                                                    class="last-text-red">N</span></button>
+                                            <button type="button" class="btn">1. INTRODUÇÃ<span
+                                                    class="last-text-red">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -310,8 +302,8 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
-                                            <button type="button" class="btn">2. LIDERAZG<span
-                                                    class="last-text-blue">O</span></button>
+                                            <button type="button" class="btn">2. LIDERANÇ<span
+                                                    class="last-text-blue">A</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -330,8 +322,8 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
-                                            <button type="button" class="btn">4. RESPONSHABILIDA<span
-                                                    class="last-text-blue">D</span></button>
+                                            <button type="button" class="btn">4. RESPONS(H)ABILIDAD<span
+                                                    class="last-text-blue">E</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -339,8 +331,8 @@
                                     <div class="card button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
-                                            <button type="button" class="btn">5. HUMILDA<span
-                                                    class="last-text-red">D</span></button>
+                                            <button type="button" class="btn">5. HUMILDAD<span
+                                                    class="last-text-red">E</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -348,8 +340,8 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
-                                            <button type="button" class="btn">6. COMUNICACIÓ<span
-                                                    class="last-text-blue">N</span></button>
+                                            <button type="button" class="btn">6. COMUNICAÇÃ<span
+                                                    class="last-text-blue">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -359,8 +351,8 @@
                                     <div class="card  button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
-                                            <button type="button" class="btn">7. COLABORACIÓ<span
-                                                    class="last-text-red">N</span></button>
+                                            <button type="button" class="btn">7. COLABORAÇÃ<span
+                                                    class="last-text-red">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -368,8 +360,8 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
-                                            <button type="button" class="btn">8. COORDINACIÓ<span
-                                                    class="last-text-blue">N</span></button>
+                                            <button type="button" class="btn">8. COORDENAÇÃ<span
+                                                    class="last-text-blue">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -377,8 +369,8 @@
                                     <div class="card button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
-                                            <button type="button" class="btn">9. CO-EVALUACIÓ<span
-                                                    class="last-text-red">N</span></button>
+                                            <button type="button" class="btn">9. COAVALIAÇÃ<span
+                                                    class="last-text-red">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -388,7 +380,7 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
-                                            <button type="button" class="btn">10. EMOCIONE<span
+                                            <button type="button" class="btn">10. EMOÇÕE<span
                                                     class="last-text-blue">S</span></button>
                                         </a>
                                     </div>
@@ -397,8 +389,8 @@
                                     <div class="card button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
-                                            <button type="button" class="btn">11. TRABAJO EN <span
-                                                    class="last-text-red">EQUIPO</span></button>
+                                            <button type="button" class="btn">11. TRABALHO EM EQUIP<span
+                                                    class="last-text-red">E</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -416,18 +408,18 @@
                     </div>
                 </div>
 
-                <!-- <div class="bd-highlight p-3">
-                </div> -->
+                <div class="bd-highlight p-3">
+                </div>
 
                 <div class="d-flex justify-content-center">
                     <div class="d-flex bd-highlight flex-column" style="white-space:nowrap">
-                        <div class="d-flex flex-fill bd-highlight flex-column" style="white-space: nowrap;">
+                        <div class="d-flex flex-fill bd-highlight flex-column" style="white-space:nowrap">
                             <div class="d-flex bd-highlight flex-row">
                                 <div class="p-3 col-1 align-items-stretch moduloFondo"
                                     style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
                                 </div>
                                 <div class="p-3 col-11 align-items-stretch moduloFondo justify-content-center"
-                                    style="color: white; text-align: center; border-top-right-radius: 15px; border-bottom-right-radius: 15px;font-size: calc(2px + 0.5vw + 0.5vh);">
+                                    style="color: white; text-align: center; border-top-right-radius: 15px; border-bottom-right-radius: 15px; font-size: calc(2px + 0.5vw + 0.5vh);">
                                     MÓDULOS COMPLEMENTARIOS</div>
                             </div>
                         </div>
@@ -446,7 +438,7 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
-                                            <button type="button" class="btn">14. ESENCIALISM<span
+                                            <button type="button" class="btn">14. ESSENCIALISM<span
                                                     class="last-text-blue">O</span></button>
                                         </a>
                                     </div>
@@ -457,8 +449,8 @@
                                     <div class="card button-color-blue">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
-                                            <button type="button" class="btn">15. RESOLUCIÓ<span
-                                                    class="last-text-red">N</span></button>
+                                            <button type="button" class="btn">15. RESOLUÇÃ<span
+                                                    class="last-text-red">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -466,8 +458,8 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
-                                            <button type="button" class="btn">16. MEDITACIÓ<span
-                                                    class="last-text-blue">N</span></button>
+                                            <button type="button" class="btn">16. MEDITAÇÃ<span
+                                                    class="last-text-blue">O</span></button>
                                         </a>
                                     </div>
                                 </div>
@@ -506,7 +498,7 @@
                                     <div class="card button-color-red">
                                         <a
                                             href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
-                                            <button type="button" class="btn">20. OCCIDENT<span
+                                            <button type="button" class="btn">20. OCIDENT<span
                                                     class="last-text-blue">E</span></button>
                                         </a>
                                     </div>
@@ -520,72 +512,61 @@
         </div>
         &nbsp;&nbsp;&nbsp;&nbsp;
     </div>
-
+    <!-- Fin Fer -->
     <div class="externos section pp-scrollable" id="Portales">
         <div class="externos-mains">
-            <h1>Portales externos</h1>
-            <h3>Accede a los mejores contenidos de capacitación desde los siguientes enlaces</h3>
+            <h1>Portais externos</h1>
+            <h3>Acesse o melhor conteúdo de treinamento dos links sugeridos</h3>
             <div class="mosaico">
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=2fecb0ff-d70a-440e-8634-c7f97bbfc8a7"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-TED.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-TED.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=342e251b-88dd-4867-b69a-037ea8b7b3cd"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-Coursera.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-Coursera.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=280f733e-bff5-4c66-853f-1a4637e671f1"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-edX.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-edX.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=6d212bf7-e65a-4630-bbc1-df1f09a329a2"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-Singularity.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-Singularity.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=94386960-18f8-4565-9f6a-97678f4da37a"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-Microsoft.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-Microsoft.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=d2c9be13-2b1b-4f39-9734-a3cfc4ab58d7"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-KhanAcademy.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-KhanAcademy.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=df303ca8-219b-433e-9946-d30e5195e056"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-ie.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-ie.png" alt=""></a>
                 <a
                     href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=233df03f-0030-44e8-940e-f9be7d20a9ec"><img
-                        src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/Banner-McKinsey.png"
-                        alt=""></a>
+                        src="/content/grupobimbo/publications/8483/img/Banner-McKinsey.png" alt=""></a>
             </div>
         </div>
         <div class="mobile-contacto">
-            <a href="#Main">Volver al inicio</a>
-            <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">CONTÁCTANOS</a>
+            <a href="#Main">Voltar ao início</a>
+            <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">Contate-Nos</a>
         </div>
         <footer>
             <div class="footer-banner">
-                <img class="footer-logo"
-                    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg"
+                <img class="footer-logo" src="/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg"
                     alt="">
                 <div class="footer-hashtag"><span style="color: #A7E2F7;">#</span><span
-                        style="color: #008BC2;">mi</span>momento<span style="color: #008BC2;">de</span>aprender</div>
+                        style="color: #008BC2;">meu</span>momento<span style="color: #008BC2;">de</span>aprender</div>
                 <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">
-                    <div class="footer-contacto">Contáctanos</div>
+                    <div class="footer-contacto">Contate-Nos</div>
                 </a>
             </div>
             <div class="copy">GB University, 2020
                 <a href="#Main" class="arrow">
-                    <img src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg"
-                        alt=""></a>
+                    <img src="/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg" alt=""></a>
             </div>
         </footer>
     </div>
 </div>
 <script src="/Core/scripts/jquery/jquery-3.6.0.min.js?hsh=519764435" type="text/javascript"></script>
-<script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/app.js"></script>
-<script src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/bootstrap.min.js"></script>
+<script src="/content/grupobimbo/publications/8483/js/app.js"></script>
+<script src="/content/grupobimbo/publications/8483/js/bootstrap.min.js"></script>
 
-<script type="text/javascript"
-    src="https://grupobimbo-pilot.csod.com/content/grupobimbo/publications/8483/js/jquery.pagepiling.js"></script>
+<script type="text/javascript" src="/content/grupobimbo/publications/8483/js/jquery.pagepiling.js"></script
