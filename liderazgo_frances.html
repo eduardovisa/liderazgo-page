@@ -1,0 +1,918 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link href="https://www.dafontfree.net/embed/Y29yYmVsLXJlZ3VsYXImZGF0YS8xMy9jLzY0Njg2L0NPUkJFTC5UVEY" rel="stylesheet"
+    type="text/css">
+<link data-include-file="lxp/carousellepV3.css" href="https://scfiles.csod.com/labs/widgets/lxp/carousellepV3.css"
+    rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/carousel.css">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/jquery.pagepiling.css">
+<link rel="stylesheet" href="/content/grupobimbo/publications/8483/css/style.css?v=3.1">
+<link rel="stylesheet" href="https://eduardovisa.github.io/liderazgo-page/styles/main.css">
+<link rel="stylesheet" href="https://eduardovisa.github.io/liderazgo-page/styles/tecnicas.css">
+<link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+<link href="//db.onlinewebfonts.com/c/a6a787f8616df7d0847ed764ff81d724?family=Maison+Neue+Extended+Extra+Bold"
+    rel="stylesheet" type="text/css">
+<style>
+    #ctl00_pnlBR {
+        display: none;
+    }
+</style>
+<script data-include-file="lxp/carousellepV2.js"
+    src="https://scfiles.csod.com/labs/widgets/lxp/carousellepV2.js"></script>
+<div class="menu">
+    <div class="dropdown">
+        <span>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Contenido</font>
+            </font>
+        </span>
+        <div class="dropdown-content">
+            <div class="dropdown-item"><a href="#Main">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">buscador de contenidos</font>
+                    </font>
+                </a></div>
+            <div class="dropdown-item"><a href="#Banners">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Reflejos</font>
+                    </font>
+                </a></div>
+            <!--<div class="dropdown-item"><a href="#Brain">Brain</a></div>-->
+            <div class="dropdown-item"><a href="#Cursos">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Mis cursos</font>
+                    </font>
+                </a></div>
+            <div class="dropdown-item"><a href="#Competencias">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Habilidades</font>
+                    </font>
+                </a></div>
+            <div class="dropdown-item"><a href="#Portales">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Portales externos</font>
+                    </font>
+                </a></div>
+            <div class="dropdown-item"><a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575"
+                    class="last">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Contáctenos</font>
+                    </font>
+                </a></div>
+        </div>
+    </div>
+    <div><a href="/ui/lms-learner-home/home?tab_page_id=-200300006">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">bienvenida</font>
+            </font>
+        </a></div>
+    <div><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">ver mi resumen</font>
+            </font>
+        </a></div>
+</div>
+<div class="sideNav" id="SideNav">
+    <div class="sideNav-close" onclick="closeNav()">
+        <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">❯</font>
+        </font>
+    </div>
+    <div class="sideNav-menu">
+        <div class="sideNav-item">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Contenido ▼</font>
+            </font>
+        </div>
+        <div class="sideNav-item left-ident"><a href="#Main">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">buscador de contenidos</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item left-ident"><a href="#Banners">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Reflejos</font>
+                </font>
+            </a></div>
+        <!--<div class="sideNav-item left-ident"><a href="#Brain">Brain</a></div>-->
+        <div class="sideNav-item left-ident"><a href="#Cursos">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Mis cursos</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item left-ident"><a href="#Competencias">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Habilidades</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item left-ident"><a href="#Portales">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Portales externos</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item"><a href="/phnx/driver.aspx?routename=Social/UniversalProfile/Transcript">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">ver mi resumen</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item"><a href="/ui/lms-learner-home/home?tab_page_id=-200300006"><img
+                    src="/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg" alt="">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">bienvenida</font>
+                </font>
+            </a></div>
+        <div class="sideNav-item"><a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575"><img
+                    src="/content/grupobimbo/publications/8483/img/iconos/contacto-icono.svg" alt="">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Contáctenos</font>
+                </font>
+            </a>
+        </div>
+    </div>
+</div>
+<span class="hamburger" onclick="openNav()">
+    <font style="vertical-align: inherit;">
+        <font style="vertical-align: inherit;">☰</font>
+    </font>
+</span>
+<div class="bottom-nav">
+    <div>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/Icono Home.svg" alt=""></a>
+    </div>
+    <div>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/Icono Search.svg" alt=""></a>
+    </div>
+    <div>
+        <a href=""><img src="/content/grupobimbo/publications/8483/img/iconos/IconoPerfil.svg" alt=""></a>
+    </div>
+</div>
+<div id="pagepiling">
+    <div class="main-section section" id="Main">
+        <div class="navbar">
+            <div class="nav-left">
+                <img src="/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg" alt="">
+            </div>
+            <div class="nav-right">
+                <a class="nav-icon" style="visibility: hidden;"><img
+                        src="/content/grupobimbo/publications/8483/img/iconos/GB Reloj.svg" alt=""></a>
+                <a class="nav-icon" style="visibility: hidden;"><img
+                        src="/content/grupobimbo/publications/8483/img/iconos/GB Engrane.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="main-wellcome">
+            <div class="profilepic">
+                <img id="Image2" src="/content/grupobimbo/publications/8483/img/cuadro.jpg" alt="">
+            </div>
+            <div class="wellcome-txt">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">
+                        ¡Hola, {FIRSTNAME}!
+                    </font>
+                </font>
+            </div>
+            <h1>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">¿QUÉ QUIERES APRENDER HOY?</font>
+                </font>
+            </h1>
+            <div class="buscador">
+                <!-- Ir al Buscador de Aprendizaje -->
+                <input type="text" id="searchbox2" class="" onkeydown="return OnKeyDown(event)" value=""
+                    placeholder="encontrar cursos">
+                <img class="search-icon" onclick="search()"
+                    src="/content/grupobimbo/publications/8483/img/search-icon.svg" alt="">
+            </div>
+            <div class="swipe">
+                <div>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Muévase hacia arriba</font>
+                    </font>
+                </div>
+                <img src="/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg" alt="">
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <div>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">• #mimomentodeprender&nbsp;</font>
+                </font>
+            </div>
+            <div>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">• #mitiempoparaaprender&nbsp;</font>
+                </font>
+            </div>
+            <div>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">• #meumomentodeaprender&nbsp;</font>
+                </font>
+            </div>
+            <div>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">• #MYTIMETOLEARN&nbsp;</font>
+                </font>
+            </div>
+            <div>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">• #</font>
+                </font><span class="chinese" style="font-weight: bold;">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">我的时间来学习</font>
+                    </font>
+                </span>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">&nbsp;•</font>
+                </font>
+            </div>
+        </div>
+    </div>
+    <div class="widget-banners section" id="Banners">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="/ui/lms-learner-playlist/PlaylistDetails?playlistId=118fbcd5-f9a3-4db9-bc64-4883af27e1b6">
+                        <picture>
+                            <source media="(min-width: 600px)"
+                                srcset="/content/grupobimbo/publications/8483/img/banners/Banner_ok_TMM_desk_ing.png">
+                            <img src="/content/grupobimbo/publications/8483/img/banners/Banner_ok_Centros_app_ing.png"
+                                alt="">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Anterior</font>
+                    </font>
+                </span>
+            </a>
+            <a class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Próximo</font>
+                    </font>
+                </span>
+            </a>
+        </div>
+    </div>
+    <!--<div class="video section" id="Brain">
+        <div class="video-container">
+            <picture>
+                <source media="(min-width: 600px)" srcset="/content/grupobimbo/publications/8483/img/Brain_mes1.png">
+                <img src="/content/grupobimbo/publications/8483/img/BannerBrain-02M.png" alt="">
+            </picture>
+            <div class="video-information">
+                <div class="video-logo">
+                    <img src="/content/grupobimbo/publications/8483/img/Brain/LogoBrain-02.png" alt="">
+                </div>
+                <div class="video-description">
+                    <h2>Courage</h2>
+                    <div class="video-body">
+                        <div>
+                            <p>Donner de soi pour résoudre les problèmes difficiles en précisant ce qui doit être dit.</p>
+                            <a href="https://brain-gbuniversity.com/" target="_blank">Accéder à Brain</a>
+                        </div>
+                        <div class="qr">
+                            <img src="/content/grupobimbo/publications/8483/img/Brain/CodigoQR-03.png" alt="codigo qr">
+                            <div>Accès depuis votre téléphone avec ce code</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="soon section pp-scrollable" id="Cursos">
+        <h1>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Mis cursos</font>
+            </font>
+        </h1>
+        <h3>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Accede a los cursos que te han sido asignados</font>
+            </font>
+        </h3>
+
+        <div class="carouselContainer" id="myLO2"></div>
+        <script>
+            getLXPWidget('Continue', 'myLO2');
+        </script>
+
+    </div>
+    <div class="competencias section" id="Competencias">
+        <h1>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Nuestros modelos de competencias</font>
+            </font>
+        </h1>
+        <h3>
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">Más información sobre los diferentes modelos de habilidades
+                </font>
+            </font>
+        </h3>
+        <div class="competencias-buttons">
+            <a href="/catalog/CustomPage.aspx?id=221000379">
+                <div class="competencias-item liderazgo">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Accede </font>
+                    </font><br><span style="font-weight: 900; font-size: 24px;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">a habilidades de </font>
+                        </font><br><span style="text-transform: capitalize; font-size: 34px;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">liderazgo</font>
+                            </font>
+                        </span>
+                    </span>
+                </div>
+            </a>
+            <a href="/catalog/CustomPage.aspx?id=221000380">
+                <div class="competencias-item humanas">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Acceso a </font>
+                    </font><br><span style="font-weight: 900; font-size: 24px;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">habilidades </font>
+                        </font><br><span style="text-transform: capitalize; font-size: 34px;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">humanas</font>
+                            </font>
+                        </span>
+                    </span>
+                </div>
+            </a>
+            <a href="/catalog/CustomPage.aspx?id=221000381">
+                <div class="competencias-item tecnicas">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Acceso a </font>
+                    </font><br><span style="font-weight: 900; font-size: 24px;">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">habilidades </font>
+                        </font><br><span style="text-transform: capitalize; font-size: 34px;">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">técnicas .</font>
+                            </font>
+                        </span>
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- INICIO modificaciones fer -->
+    <!-- INICIO modificaciones fer -->
+    <!-- INICIO modificaciones fer -->
+
+
+
+
+
+
+
+
+
+
+    <div class="liderazgo section" id="Liderazgo"
+        style="background-image: url(https://eduardovisa.github.io/liderazgo-page/img/Fondo.jpg);">
+        <div class="" style="padding-top: 1vh;">
+
+            <div class="d-flex justify-content-center"
+                style="background-image: url(https://eduardovisa.github.io/liderazgo-page/img/lineas_1.png); background-repeat: no-repeat; background-size: contain; background-position: center; height: 45vh; margin-top:2vh">
+                <div class="bd-highlight"></div>
+                <div class="bd-highlight">
+                    <div class="text">
+                        <b>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">BIENVENIDO A MATERIALES ADICIONALES</font>
+                            </font>
+                        </b>
+                        <p style="margin: 0; margin-top: -10px;">
+                            <b>
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">DEL LIDERAZGO A LA CONCIENCIA</font>
+                                </font>
+                            </b>
+                        </p>
+                        <p style="margin: 0;">&nbsp;</p>
+                    </div>
+                    <div class="text">
+                        <img src="https://eduardovisa.github.io/liderazgo-page/img/LaC_esp.png" style="width: 25vh;">
+                    </div>
+                    <div class="text-description">
+                        <p>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Haga clic en el módulo que desea ver</font>
+                            </font>
+                        </p>
+                        <p style="margin: 0; margin-top: -10px;">&nbsp;</p>
+                    </div>
+                </div>
+                <div class="bd-highlight"></div>
+            </div>
+
+
+            <div class="d-flex justify-content-lg-center flex-lg-row flex-column">
+                <div class="d-flex col-6 justify-content-center" style="margin-right: 10vw;">
+
+                    <div class="d-flex bd-highlight flex-column" style="white-space: nowrap;">
+
+                        <div class="d-flex bd-highlight flex-column" style="white-space: nowrap;">
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-3 col-5 align-items-stretch moduloFondo"
+                                    style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+                                </div>
+                                <div class="p-3 col-8 align-items-stretch moduloFondo justify-content-center"
+                                    style="color: white; text-align: center; font-size: calc(2px + 0.5vw + 0.5vh);">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            MÓDULOS OBLIGATORIOS</font>
+                                    </font>
+                                </div>
+                                <div class="p-3 col-5 align-items-stretch moduloFondo"
+                                    style="border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-fill bd-highlight flex-column">
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">1. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">INTRODUCCIÓN</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">2. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">LIDERAZGO</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">3. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">CULTURA</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">4. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">RESPONSABILIDAD</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">5. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">HUMILDAD</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;"><span class="last-text-blue">
+                                                        <font style="vertical-align: inherit;">6.</font>
+                                                    </span>
+                                                    <font style="vertical-align: inherit;"> COMUNICACIÓN</font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;"></font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card  button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">7. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">COLABORACIÓN</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">8. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">COORDINACIÓN</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">9. REVISIÓN POR PARES DE
+                                                    </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">NS</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row bd-highlight" style="height: 10vh;">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">10. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">EMOCIONES</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;"><span class="last-text-red">
+                                                        <font style="vertical-align: inherit;">11.</font>
+                                                    </span>
+                                                    <font style="vertical-align: inherit;"> TRABAJO EN EQUIPO</font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;"></font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card  button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">12. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">MARCO</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class=" d-flex col-5 justify-content-start" style="margin-left: 5vw;">
+                    <div class="d-flex col-8 bd-highlight flex-column" style="white-space:nowrap">
+
+                        <div class="d-flex bd-highlight flex-column" style="white-space: nowrap;">
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-3 col-2 align-items-stretch moduloFondo"
+                                    style="border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+                                </div>
+                                <div class="p-3 col-8 align-items-stretch moduloFondo justify-content-center"
+                                    style="color: white; text-align: center; font-size: calc(2px + 0.5vw + 0.5vh);">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            MÓDULOS ADICIONALES</font>
+                                    </font>
+                                </div>
+                                <div class="p-3 col-2 align-items-stretch moduloFondo"
+                                    style="border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-fill bd-highlight flex-column">
+                            <div class="d-flex flex-row bd-highlight">
+
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">13. ESTOICISMO </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">E</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">14. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">ESENCIALISMO</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">15. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">RESOLUCIÓN</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">16. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">MEDITACIÓN</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex bd-highlight flex-row">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card  button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=d1926705-4b47-4f75-8626-caefb6cd9adf">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">17. </font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">PERSPECTIVAS</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=3d351d56-14b8-4eaa-b33b-4e2140f32679">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">18. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">CAPITALISMO</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex bd-highlight flex-row" style="height: 10vh;">
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-blue">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=93302a92-2636-481f-b445-2ba96ba5a1d8">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;"><span class="last-text-red">
+                                                        <font style="vertical-align: inherit;">19. ANTI</font>
+                                                    </span>
+                                                    <font style="vertical-align: inherit;"> -CAPITALISMO</font>
+                                                </font><span class="last-text-red">
+                                                    <font style="vertical-align: inherit;"></font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-1 col-6 align-items-stretch btnFondo">
+                                    <div class="card button-color-red">
+                                        <a
+                                            href="https://grupobimbo.csod.com/ui/lms-learner-playlist/PlaylistDetails?playlistId=23e0af33-efbc-498d-842e-97ae78dd2196">
+                                            <button type="button" class="btn">
+                                                <font style="vertical-align: inherit;">
+                                                    <font style="vertical-align: inherit;">20. </font>
+                                                </font><span class="last-text-blue">
+                                                    <font style="vertical-align: inherit;">
+                                                        <font style="vertical-align: inherit;">OESTE</font>
+                                                    </font>
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- FIN modificaciones fer -->
+    <!-- FIN modificaciones fer -->
+    <!-- FIN modificaciones fer -->
+
+
+    <div class="externos section pp-scrollable" id="Portales">
+        <div class="externos-mains">
+            <h1>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Portales externos</font>
+                </font>
+            </h1>
+            <h3>
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Accede al mejor contenido formativo a través de los enlaces
+                        sugeridos</font>
+                </font>
+            </h3>
+            <div class="mosaico">
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=2fecb0ff-d70a-440e-8634-c7f97bbfc8a7"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-TED.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=342e251b-88dd-4867-b69a-037ea8b7b3cd"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-Coursera.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=280f733e-bff5-4c66-853f-1a4637e671f1"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-edX.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=6d212bf7-e65a-4630-bbc1-df1f09a329a2"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-Singularity.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=94386960-18f8-4565-9f6a-97678f4da37a"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-Microsoft.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=d2c9be13-2b1b-4f39-9734-a3cfc4ab58d7"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-KhanAcademy.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=df303ca8-219b-433e-9946-d30e5195e056"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-ie.png" alt=""></a>
+                <a
+                    href="/ui/lms-learner-search/search?pageNumber=1&amp;providerIds=233df03f-0030-44e8-940e-f9be7d20a9ec"><img
+                        src="/content/grupobimbo/publications/8483/img/Banner-McKinsey.png" alt=""></a>
+            </div>
+        </div>
+        <div class="mobile-contacto">
+            <a href="#Main">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">volver arriba</font>
+                </font>
+            </a>
+            <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Contáctenos</font>
+                </font>
+            </a>
+        </div>
+        <footer>
+            <div class="footer-banner">
+                <img class="footer-logo" src="/content/grupobimbo/publications/8483/img/iconos/GB University Logo.svg"
+                    alt="">
+                <div class="footer-hashtag"><span style="color: #A7E2F7;">#</span><span
+                        style="color: #008BC2;">mon</span>temps<span style="color: #008BC2;">d'</span>apprendre</div>
+                <a href="/catalog/CustomPage.aspx?id=20000575&amp;tab_page_id=20000575">
+                    <div class="footer-contacto">Contactez-nous</div>
+                </a>
+            </div>
+            <div class="copy">GB University, 2020
+                <a href="#Main" class="arrow">
+                    <img src="/content/grupobimbo/publications/8483/img/iconos/GBU Flecha Arriba.svg" alt=""></a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/Core/scripts/jquery/jquery-3.6.0.min.js?hsh=519764435" type="text/javascript"></script>
+<script src="/content/grupobimbo/publications/8483/js/app.js"></script>
+<script src="/content/grupobimbo/publications/8483/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/content/grupobimbo/publications/8483/js/jquery.pagepiling.js"></script>
